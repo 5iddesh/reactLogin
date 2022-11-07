@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  min-height: 100vh;
+}
+.parent {
+  display: flex;
+  width: 100%;
+  font-family: "Poppins";
+  font-style: normal;
+}
+.image {
+  width: 50vw;
+  background: green;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 40vw;
+  padding-top: 7%;
+}
+.container h1 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+  width: 494px;
+  height: 72px;
+  margin-left: 25%;
+  margin-bottom: 3%;
+
+  color: #043133;
+}
+.container label {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+  gap: 5px;
+  width: 50%;
+  margin-left: 15%;
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: rgba(77, 89, 89, 1);
+}
+.container input {
+  background: #eff0f2;
+  border-radius: 8px;
+  width: 600px;
+  height: 65px;
+  padding-inline-start: 20px;
+  border: none;
+}
+.container input:focus {
+  border: 1.5px solid darkgray;
+  outline: none;
+}
+.container input-placeholder {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+.container .btn-parent {
+  display: flex;
+  justify-content: center;
+  margin-left: 25%;
+}
+.container .submit-btn {
+  background: #007074;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+  width: 340px;
+  height: 60px;
+  margin-top: 20px;
+
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 39px;
+  color: #ffffff;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-top: 20px;
+  gap: 15px;
+  margin-left: 15%;
+  margin-bottom: 50px;
+}
+.login-link {
+  text-decoration: none;
+  color: rgba(0, 112, 116, 1);
+  margin-left: 10px;
+}
+.link-btns {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.links Button {
+  width: 45%;
+  height: 50px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  border: 1.4px solid #d2d2d2;
+  border-radius: 8px;
+
+  color: #043133;
+}
